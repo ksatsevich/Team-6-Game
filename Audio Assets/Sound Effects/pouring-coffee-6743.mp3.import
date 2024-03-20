@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgjikgd5d6jqn"
+path="res://.godot/imported/pouring-coffee-6743.mp3-d8e2f7b0c738e503b3a0c18e1ede2f0c.mp3str"
+
+[deps]
+
+source_file="res://Audio Assets/Sound Effects/pouring-coffee-6743.mp3"
+dest_files=["res://.godot/imported/pouring-coffee-6743.mp3-d8e2f7b0c738e503b3a0c18e1ede2f0c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

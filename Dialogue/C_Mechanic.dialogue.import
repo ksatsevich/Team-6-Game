@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://ct48a2yr7ik18"
+path="res://.godot/imported/C_Mechanic.dialogue-8adabd34f8e7980a91acfc5b08f7d04d.tres"
+
+[deps]
+
+source_file="res://Dialogue/C_Mechanic.dialogue"
+dest_files=["res://.godot/imported/C_Mechanic.dialogue-8adabd34f8e7980a91acfc5b08f7d04d.tres"]
+
+[params]
+
+defaults=true

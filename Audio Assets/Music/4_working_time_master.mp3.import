@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cav06g1ks26d2"
+path="res://.godot/imported/4_working_time_master.mp3-8588daa3ee9ad5688cf89715d20dc7a7.mp3str"
+
+[deps]
+
+source_file="res://Audio Assets/Music/4_working_time_master.mp3"
+dest_files=["res://.godot/imported/4_working_time_master.mp3-8588daa3ee9ad5688cf89715d20dc7a7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

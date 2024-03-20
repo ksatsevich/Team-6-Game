@@ -1,0 +1,32 @@
+~ start
+Bearista: Welcome! What's the perfect brew to start your adventure this evening?
+Customer: Hey there! I'm off to fish with my pals later. Got anything to keep me lively and cozy?
+Bearista: Sure thing, we have a couple of options that might hit the spot:
+- dark roast coffee
+	Customer: I'll take the dark roast coffee, please. Make it a large, will you?
+	Bearista: A large dark roast, coming right up! Heading to any special spot for fishing?
+- creamy hot cocoa
+	Customer: I'll take the hot cocoa with cinnamon, please. Make it a large, will you?
+	Bearista: A hot cocoa with cinnamon, coming right up! Heading to any special spot for fishing?
+
+Customer: Yeah, we're trying our luck at the old creek. Heard it's teeming with bass this season.
+Bearista: Oh, the creek's a great choice. Your coffee's ready! Need any snacks for the trip?
+Customer: How about something on the lighter side?
+- Homemade oatmeal
+	Bearista: How about our homemade oatmeal? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+- Trail Mix
+	Bearista: How about our trail mix? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+- Cookie
+	Bearista: How about our Choclate chip cookie? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+
+Bearista: You got it. That'll be all set in a jiffy. Anything else to add?
+Customer: That should do it. How much do I owe you?
+Bearista: That'll be $8.50. And here's a little extra something - a packet of our special blend coffee. On the house, for your fishing trip!
+Customer: That's very kind of you, thank you! I'll make sure to share this with my buddies.
+Bearista: Absolutely, hope it brings you all good luck. Enjoy the fishing and stay safe out there!
+Customer: Thanks a lot! We definitely will.
+
+=> END

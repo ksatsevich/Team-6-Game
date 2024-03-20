@@ -1,0 +1,28 @@
+~ start
+Bearista: Good morning! What can I get started for you today?
+Mother: Hi there! I'll need a strong coffee, please. It's been one of those mornings.
+Mother: What types of Coffee do you have 
+- Espresso
+	Mother: Espresso, please. Need that quick energy!
+	Bearista: Got it! Would you like a single or a double shot?
+- Double shot
+	Mother: Double shot espresso, please. Thanks!
+	Bearista: Coming right up! Anything to nibble on?
+- Latte
+	Mother: Latte, thanks. Just the coffee today.
+	Bearista: Alright, one latte. That'll be ready in just a moment.
+Bearista: Is there anything else I can help with today
+Mother: Actually, do you have any snacks for kids?
+- Fruit Cups
+	Mother: A fruit cup, please.
+	Bearista: Perfect choice! I'll add that to your order.
+- Animal Cracker
+	Mother: A animal cracker, please.
+	Bearista: Perfect choice! I'll add that to your order.
+- Orange Juice
+	Mother: A orange juice, please.
+	Bearista: Perfect choice! I'll add that to your order.
+Bearista: Is this a little pick-me-up before a busy day?
+Mother: Yes, I'm off to pick up my daughter from kindergarten soon.
+Bearista: How sweet! I'll make sure your coffee is extra special today.
+=> END

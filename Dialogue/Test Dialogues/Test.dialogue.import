@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://cudatutab310k"
+path="res://.godot/imported/Test.dialogue-6deb7d5fc9b115a96472aaacfce68ce5.tres"
+
+[deps]
+
+source_file="res://Dialogue/Test Dialogues/Test.dialogue"
+dest_files=["res://.godot/imported/Test.dialogue-6deb7d5fc9b115a96472aaacfce68ce5.tres"]
+
+[params]
+
+defaults=true

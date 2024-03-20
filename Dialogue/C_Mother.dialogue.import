@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bvsiwy7mjp2xq"
+path="res://.godot/imported/C_Mother.dialogue-1eacc1bda82bb5dc36fbd72c84906d55.tres"
+
+[deps]
+
+source_file="res://Dialogue/C_Mother.dialogue"
+dest_files=["res://.godot/imported/C_Mother.dialogue-1eacc1bda82bb5dc36fbd72c84906d55.tres"]
+
+[params]
+
+defaults=true

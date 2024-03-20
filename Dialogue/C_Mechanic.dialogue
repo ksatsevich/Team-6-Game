@@ -1,0 +1,17 @@
+~ start
+Bearista: Welcome to the Cozy Den Café! What can I brew for you today?
+Mechanic: Hey there! I've been under cars all day. Need something strong. What do you recommend?
+- Espresso, a bold choice for a bold job.
+	Bearista: Espresso it is! Single or double shot?
+	Mechanic: Make it a double. Need all the help I can get.
+	Bearista: Coming right up! Anything to sweeten the deal for you?
+	Mechanic: Nah, I like it bitter. Matches my morning mood.
+- Turbo Charged Latte, it’s like a tune-up for your taste buds.
+	Bearista: One Turbo Charged Latte, coming up! How do you take it, regular or with an extra shot of espresso?
+	Mechanic: Throw in the extra shot. Sounds like just what I need.
+	Bearista: You got it! Would you like any pastries to go with that? A little fuel for the mechanic?
+	Mechanic: Sure, surprise me with something sweet.
+
+Bearista: Will that be all for today?
+Mechanic: Yes, thank you!!
+=> END

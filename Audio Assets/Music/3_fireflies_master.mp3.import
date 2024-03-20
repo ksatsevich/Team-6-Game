@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dukfhiws35g3o"
+path="res://.godot/imported/3_fireflies_master.mp3-667f18272f35a75c342a135e4dc387ab.mp3str"
+
+[deps]
+
+source_file="res://Audio Assets/Music/3_fireflies_master.mp3"
+dest_files=["res://.godot/imported/3_fireflies_master.mp3-667f18272f35a75c342a135e4dc387ab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

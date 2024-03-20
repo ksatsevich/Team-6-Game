@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://8u4ysx6hdx8f"]
+
+[ext_resource type="Script" path="res://Scripts/Stations/IngredientStation.gd" id="1_mmwct"]
+[ext_resource type="Texture2D" uid="uid://d0rl0505tyae3" path="res://Art Assets/Background/Decoration/12_Kitchen_16x16.png" id="2_jjyyd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_axodn"]
+size = Vector2(45, 65)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1l5qd"]
+size = Vector2(154, 146)
+
+[node name="SyrupStation" type="StaticBody2D"]
+script = ExtResource("1_mmwct")
+ingredient_name = "Vanilla"
+type = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(5, 5)
+texture = ExtResource("2_jjyyd")
+region_enabled = true
+region_rect = Rect2(240, 207, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, 7.5)
+shape = SubResource("RectangleShape2D_axodn")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_1l5qd")

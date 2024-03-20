@@ -1,0 +1,30 @@
+~ start
+Bearista: conversation
+Customer: conversation reponse
+Bearista: question
+- answer 1
+	Customer: response to the answer
+	Bearista: response to the response
+- answer 2
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+Bearista: continuation of the conversation
+Customer: continuation of the conversation
+Bearista: continuation of the conversation
+Customer: continuation of the conversation
+Bearista: continuation of the conversation
+Customer: question 2
+- answer 1
+	Customer: response to the answer
+	Bearista: response to the response
+- answer 2
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+Bearista: end of conversation 
+
+
+
+
+=> END

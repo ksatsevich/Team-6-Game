@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://da0kquux0bdkc"
+path="res://.godot/imported/17_new_season_stinger_master.mp3-ab2968cf1cc0dbea7aff20aaf1e8bea8.mp3str"
+
+[deps]
+
+source_file="res://Audio Assets/Music/17_new_season_stinger_master.mp3"
+dest_files=["res://.godot/imported/17_new_season_stinger_master.mp3-ab2968cf1cc0dbea7aff20aaf1e8bea8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

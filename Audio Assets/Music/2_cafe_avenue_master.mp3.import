@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://baxd4p6hwl6sj"
+path="res://.godot/imported/2_cafe_avenue_master.mp3-3b9ef789331263536ecb48dd24c15298.mp3str"
+
+[deps]
+
+source_file="res://Audio Assets/Music/2_cafe_avenue_master.mp3"
+dest_files=["res://.godot/imported/2_cafe_avenue_master.mp3-3b9ef789331263536ecb48dd24c15298.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

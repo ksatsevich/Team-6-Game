@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bhervcfkcaw4r"
+path="res://.godot/imported/C _Fishing_Trip.dialogue-2652cbd0e84aeaafda11c5955ce7c424.tres"
+
+[deps]
+
+source_file="res://Dialogue/C _Fishing_Trip.dialogue"
+dest_files=["res://.godot/imported/C _Fishing_Trip.dialogue-2652cbd0e84aeaafda11c5955ce7c424.tres"]
+
+[params]
+
+defaults=true
