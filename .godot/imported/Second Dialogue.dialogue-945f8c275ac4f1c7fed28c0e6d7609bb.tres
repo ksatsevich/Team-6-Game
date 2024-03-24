@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_5jits"]
+
+[resource]
+script = ExtResource("1_5jits")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Bearista", "Customer 2")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": "title"
+},
+"3": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Morning, my creative friend! The canvas of the day is blank. How do you feel about adding a splash of unexpected joy to it?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Morning, my creative friend! The canvas of the day is blank. How do you feel about adding a splash of unexpected joy to it?",
+"type": "dialogue"
+},
+"4": {
+"character": "Customer 2",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "I’m all for surprises! They fuel my creativity. What do you have in store that might inspire today's masterpiece?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "I’m all for surprises! They fuel my creativity. What do you have in store that might inspire today's masterpiece?",
+"type": "dialogue"
+},
+"5": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "7",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Let’s spin the wheel of flavors and textures! Your muse awaits in the form of our daily delight.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Let’s spin the wheel of flavors and textures! Your muse awaits in the form of our daily delight.",
+"type": "dialogue"
+},
+"7": {
+"id": "7",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+}
+}
+raw_text = "~ start
+
+Bearista: Morning, my creative friend! The canvas of the day is blank. How do you feel about adding a splash of unexpected joy to it?
+Customer 2: I’m all for surprises! They fuel my creativity. What do you have in store that might inspire today's masterpiece?
+Bearista: Let’s spin the wheel of flavors and textures! Your muse awaits in the form of our daily delight.
+
+=> END"
+metadata/dialogue_manager_version = "2.35.0"

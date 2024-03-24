@@ -1,0 +1,362 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_4t4db"]
+
+[resource]
+script = ExtResource("1_4t4db")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Bearista", "Customer")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "11",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "reponse to the reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the reponse to the answer",
+"type": "dialogue"
+},
+"11": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "continuation of the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "continuation of the conversation",
+"type": "dialogue"
+},
+"12": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "continuation of the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "continuation of the conversation",
+"type": "dialogue"
+},
+"13": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "continuation of the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "continuation of the conversation",
+"type": "dialogue"
+},
+"14": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "continuation of the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "continuation of the conversation",
+"type": "dialogue"
+},
+"15": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "continuation of the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "continuation of the conversation",
+"type": "dialogue"
+},
+"16": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "question 2",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "question 2",
+"type": "dialogue"
+},
+"17": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "18",
+"next_id_after": "25",
+"notes": "",
+"responses": PackedStringArray("17", "20"),
+"tags": PackedStringArray(),
+"text": "answer 1",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "answer 1",
+"type": "response"
+},
+"18": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "19",
+"notes": "",
+"parent_id": "17",
+"tags": PackedStringArray(),
+"text": "response to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "response to the answer",
+"type": "dialogue"
+},
+"19": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "25",
+"notes": "",
+"parent_id": "17",
+"tags": PackedStringArray(),
+"text": "response to the response",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "response to the response",
+"type": "dialogue"
+},
+"2": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "conversation",
+"type": "dialogue"
+},
+"20": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "21",
+"next_id_after": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "answer 2",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "answer 2",
+"type": "response"
+},
+"21": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"notes": "",
+"parent_id": "20",
+"tags": PackedStringArray(),
+"text": "reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the answer",
+"type": "dialogue"
+},
+"22": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "22",
+"next_id": "23",
+"notes": "",
+"parent_id": "20",
+"tags": PackedStringArray(),
+"text": "reponse to the reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the reponse to the answer",
+"type": "dialogue"
+},
+"23": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "24",
+"notes": "",
+"parent_id": "20",
+"tags": PackedStringArray(),
+"text": "reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the answer",
+"type": "dialogue"
+},
+"24": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "24",
+"next_id": "25",
+"notes": "",
+"parent_id": "20",
+"tags": PackedStringArray(),
+"text": "reponse to the reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the reponse to the answer",
+"type": "dialogue"
+},
+"25": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "25",
+"next_id": "30",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "end of conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "end of conversation",
+"type": "dialogue"
+},
+"3": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "conversation reponse",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "conversation reponse",
+"type": "dialogue"
+},
+"30": {
+"id": "30",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"4": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "question",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "question",
+"type": "dialogue"
+},
+"5": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"next_id_after": "11",
+"notes": "",
+"responses": PackedStringArray("5", "8"),
+"tags": PackedStringArray(),
+"text": "answer 1",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "answer 1",
+"type": "response"
+},
+"6": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "response to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "response to the answer",
+"type": "dialogue"
+},
+"7": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "11",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "response to the response",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "response to the response",
+"type": "dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "11",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "answer 2",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "answer 2",
+"type": "response"
+},
+"9": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "reponse to the answer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "reponse to the answer",
+"type": "dialogue"
+}
+}
+raw_text = "~ start
+Bearista: conversation
+Customer: conversation reponse
+Bearista: question
+- answer 1
+	Customer: response to the answer
+	Bearista: response to the response
+- answer 2
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+Bearista: continuation of the conversation
+Customer: continuation of the conversation
+Bearista: continuation of the conversation
+Customer: continuation of the conversation
+Bearista: continuation of the conversation
+Customer: question 2
+- answer 1
+	Customer: response to the answer
+	Bearista: response to the response
+- answer 2
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+	Customer: reponse to the answer
+	Bearista: reponse to the reponse to the answer
+Bearista: end of conversation 
+
+
+
+
+=> END
+"
+metadata/dialogue_manager_version = "2.35.0"

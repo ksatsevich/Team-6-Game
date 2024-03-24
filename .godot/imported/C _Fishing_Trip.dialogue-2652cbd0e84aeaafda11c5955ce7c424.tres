@@ -1,0 +1,401 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hcvyv"]
+
+[resource]
+script = ExtResource("1_hcvyv")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Bearista", "Customer")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "12",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "A hot cocoa with cinnamon, coming right up! Heading to any special spot for fishing?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A hot cocoa with cinnamon, coming right up! Heading to any special spot for fishing?",
+"type": "dialogue"
+},
+"12": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Yeah, we're trying our luck at the old creek. Heard it's teeming with bass this season.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Yeah, we're trying our luck at the old creek. Heard it's teeming with bass this season.",
+"type": "dialogue"
+},
+"13": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Oh, the creek's a great choice. Your coffee's ready! Need any snacks for the trip?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Oh, the creek's a great choice. Your coffee's ready! Need any snacks for the trip?",
+"type": "dialogue"
+},
+"14": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "How about something on the lighter side?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "How about something on the lighter side?",
+"type": "dialogue"
+},
+"15": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"next_id_after": "25",
+"notes": "",
+"responses": PackedStringArray("15", "18", "21"),
+"tags": PackedStringArray(),
+"text": "Homemade oatmeal",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Homemade oatmeal",
+"type": "response"
+},
+"16": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"notes": "",
+"parent_id": "15",
+"tags": PackedStringArray(),
+"text": "How about our homemade oatmeal? They're quite popular with the outdoor crowd.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "How about our homemade oatmeal? They're quite popular with the outdoor crowd.",
+"type": "dialogue"
+},
+"17": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "25",
+"notes": "",
+"parent_id": "15",
+"tags": PackedStringArray(),
+"text": "Perfect, add those to my order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect, add those to my order.",
+"type": "dialogue"
+},
+"18": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "19",
+"next_id_after": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Trail Mix",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Trail Mix",
+"type": "response"
+},
+"19": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "20",
+"notes": "",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "How about our trail mix? They're quite popular with the outdoor crowd.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "How about our trail mix? They're quite popular with the outdoor crowd.",
+"type": "dialogue"
+},
+"2": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Welcome! What's the perfect brew to start your adventure this evening?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Welcome! What's the perfect brew to start your adventure this evening?",
+"type": "dialogue"
+},
+"20": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "25",
+"notes": "",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "Perfect, add those to my order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect, add those to my order.",
+"type": "dialogue"
+},
+"21": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"next_id_after": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Cookie",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Cookie",
+"type": "response"
+},
+"22": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "22",
+"next_id": "23",
+"notes": "",
+"parent_id": "21",
+"tags": PackedStringArray(),
+"text": "How about our Choclate chip cookie? They're quite popular with the outdoor crowd.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "How about our Choclate chip cookie? They're quite popular with the outdoor crowd.",
+"type": "dialogue"
+},
+"23": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "25",
+"notes": "",
+"parent_id": "21",
+"tags": PackedStringArray(),
+"text": "Perfect, add those to my order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect, add those to my order.",
+"type": "dialogue"
+},
+"25": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "25",
+"next_id": "26",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "You got it. That'll be all set in a jiffy. Anything else to add?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "You got it. That'll be all set in a jiffy. Anything else to add?",
+"type": "dialogue"
+},
+"26": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "26",
+"next_id": "27",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "That should do it. How much do I owe you?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "That should do it. How much do I owe you?",
+"type": "dialogue"
+},
+"27": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "27",
+"next_id": "28",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "That'll be $8.50. And here's a little extra something - a packet of our special blend coffee. On the house, for your fishing trip!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "That'll be $8.50. And here's a little extra something - a packet of our special blend coffee. On the house, for your fishing trip!",
+"type": "dialogue"
+},
+"28": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "28",
+"next_id": "29",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "That's very kind of you, thank you! I'll make sure to share this with my buddies.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "That's very kind of you, thank you! I'll make sure to share this with my buddies.",
+"type": "dialogue"
+},
+"29": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "29",
+"next_id": "30",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Absolutely, hope it brings you all good luck. Enjoy the fishing and stay safe out there!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Absolutely, hope it brings you all good luck. Enjoy the fishing and stay safe out there!",
+"type": "dialogue"
+},
+"3": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Hey there! I'm off to fish with my pals later. Got anything to keep me lively and cozy?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hey there! I'm off to fish with my pals later. Got anything to keep me lively and cozy?",
+"type": "dialogue"
+},
+"30": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "30",
+"next_id": "32",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Thanks a lot! We definitely will.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Thanks a lot! We definitely will.",
+"type": "dialogue"
+},
+"32": {
+"id": "32",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"4": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Sure thing, we have a couple of options that might hit the spot:",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sure thing, we have a couple of options that might hit the spot:",
+"type": "dialogue"
+},
+"5": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"next_id_after": "12",
+"notes": "",
+"responses": PackedStringArray("5", "8"),
+"tags": PackedStringArray(),
+"text": "dark roast coffee",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "dark roast coffee",
+"type": "response"
+},
+"6": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "I'll take the dark roast coffee, please. Make it a large, will you?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "I'll take the dark roast coffee, please. Make it a large, will you?",
+"type": "dialogue"
+},
+"7": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "12",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "A large dark roast, coming right up! Heading to any special spot for fishing?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A large dark roast, coming right up! Heading to any special spot for fishing?",
+"type": "dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "creamy hot cocoa",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "creamy hot cocoa",
+"type": "response"
+},
+"9": {
+"character": "Customer",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "I'll take the hot cocoa with cinnamon, please. Make it a large, will you?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "I'll take the hot cocoa with cinnamon, please. Make it a large, will you?",
+"type": "dialogue"
+}
+}
+raw_text = "~ start
+Bearista: Welcome! What's the perfect brew to start your adventure this evening?
+Customer: Hey there! I'm off to fish with my pals later. Got anything to keep me lively and cozy?
+Bearista: Sure thing, we have a couple of options that might hit the spot:
+- dark roast coffee
+	Customer: I'll take the dark roast coffee, please. Make it a large, will you?
+	Bearista: A large dark roast, coming right up! Heading to any special spot for fishing?
+- creamy hot cocoa
+	Customer: I'll take the hot cocoa with cinnamon, please. Make it a large, will you?
+	Bearista: A hot cocoa with cinnamon, coming right up! Heading to any special spot for fishing?
+
+Customer: Yeah, we're trying our luck at the old creek. Heard it's teeming with bass this season.
+Bearista: Oh, the creek's a great choice. Your coffee's ready! Need any snacks for the trip?
+Customer: How about something on the lighter side?
+- Homemade oatmeal
+	Bearista: How about our homemade oatmeal? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+- Trail Mix
+	Bearista: How about our trail mix? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+- Cookie
+	Bearista: How about our Choclate chip cookie? They're quite popular with the outdoor crowd.
+	Customer: Perfect, add those to my order.
+
+Bearista: You got it. That'll be all set in a jiffy. Anything else to add?
+Customer: That should do it. How much do I owe you?
+Bearista: That'll be $8.50. And here's a little extra something - a packet of our special blend coffee. On the house, for your fishing trip!
+Customer: That's very kind of you, thank you! I'll make sure to share this with my buddies.
+Bearista: Absolutely, hope it brings you all good luck. Enjoy the fishing and stay safe out there!
+Customer: Thanks a lot! We definitely will.
+
+=> END
+"
+metadata/dialogue_manager_version = "2.35.0"

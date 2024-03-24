@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_si5r5"]
+
+[resource]
+script = ExtResource("1_si5r5")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Bearista", "Customer1")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "start",
+"type": "title"
+},
+"2": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Ah, you've caught the first rays again! There’s something magical about mornings, isn't there? Ready for today’s surprise?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ah, you've caught the first rays again! There’s something magical about mornings, isn't there? Ready for today’s surprise?",
+"type": "dialogue"
+},
+"3": {
+"character": "Customer1",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Every morning has its own story. Yes, I’m curious to see what you’ve got for me today. Something to match the sparkle of dawn, perhaps?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Every morning has its own story. Yes, I’m curious to see what you’ve got for me today. Something to match the sparkle of dawn, perhaps?",
+"type": "dialogue"
+},
+"4": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "6",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "I’ve got just the thing to start your day on a bright note. Let’s see what the morning brews for us!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "I’ve got just the thing to start your day on a bright note. Let’s see what the morning brews for us!",
+"type": "dialogue"
+},
+"6": {
+"id": "6",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+}
+}
+raw_text = "~ start 
+Bearista: Ah, you've caught the first rays again! There’s something magical about mornings, isn't there? Ready for today’s surprise?
+Customer1: Every morning has its own story. Yes, I’m curious to see what you’ve got for me today. Something to match the sparkle of dawn, perhaps?
+Bearista: I’ve got just the thing to start your day on a bright note. Let’s see what the morning brews for us!
+
+=> END
+"
+metadata/dialogue_manager_version = "2.35.0"
