@@ -1,183 +1,183 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1711344281
-export_presets.cfg::TextFile::-1::1710790433::0::1::::<><>::
-icon.svg::CompressedTexture2D::5086190843030977586::1710790433::1710790433::1::::<><>::
-README.md::TextFile::-1::1710790433::0::1::::<><>::
-::res://addons/::1710790433
-::res://addons/dialogue_manager/::1710790433
-constants.gd::GDScript::-1::1710790433::0::1::::<>Node<>::
-dialogue_label.gd::GDScript::-1::1710790433::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_label.tscn::PackedScene::5518490004210093266::1710790433::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
-dialogue_line.gd::GDScript::-1::1710790433::0::1::::DialogueLine<>RefCounted<>::
-dialogue_manager.gd::GDScript::-1::1710790433::0::1::::<>Node<>::
-dialogue_reponses_menu.gd::GDScript::-1::1710790433::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
-dialogue_resource.gd::GDScript::-1::1710790433::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_response.gd::GDScript::-1::1710790433::0::1::::DialogueResponse<>RefCounted<>::
-editor_translation_parser_plugin.gd::GDScript::-1::1710790433::0::1::::<>EditorTranslationParserPlugin<>::
-import_plugin.gd::GDScript::-1::1710790433::0::1::::<>EditorImportPlugin<>::
-plugin.cfg::TextFile::-1::1710790433::0::1::::<><>::
-plugin.gd::GDScript::-1::1710790433::0::1::::<>EditorPlugin<>::
-settings.gd::GDScript::-1::1710790433::0::1::::<>Node<>::
-test_scene.gd::GDScript::-1::1710790433::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::-1::1710790433::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
-::res://addons/dialogue_manager/assets/::1710790433
-icon.svg::CompressedTexture2D::9148339284877624195::1710790433::1710790433::1::::<><>::
-responses_menu.svg::CompressedTexture2D::8371359403825774630::1710790433::1710790433::1::::<><>::
-update.svg::CompressedTexture2D::9126631778427806641::1710790433::1710790433::1::::<><>::
-::res://addons/dialogue_manager/components/::1710790433
-code_edit.gd::GDScript::-1::1710790433::0::1::::<>CodeEdit<>::
-code_edit.tscn::PackedScene::5379618807048408118::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
-code_edit_syntax_highlighter.gd::GDScript::-1::1710790433::0::1::::<>SyntaxHighlighter<>::
-dialogue_cache.gd::GDScript::-1::1710790433::0::1::::<>Node<>::
-download_update_panel.gd::GDScript::-1::1710790433::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
-errors_panel.gd::GDScript::-1::1710790433::0::1::::<>HBoxContainer<>::
-errors_panel.tscn::PackedScene::6105315990352960875::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
-files_list.gd::GDScript::-1::1710790433::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
-parser.gd::GDScript::-1::1710790433::0::1::::DialogueManagerParser<>Object<>::
-parse_result.gd::GDScript::-1::1710790433::0::1::::DialogueManagerParseResult<>RefCounted<>::
-resolved_line_data.gd::GDScript::-1::1710790433::0::1::::<>RefCounted<>::
-resolved_tag_data.gd::GDScript::-1::1710790433::0::1::::<>RefCounted<>::
-search_and_replace.gd::GDScript::-1::1710790433::0::1::::<>VBoxContainer<>::
-search_and_replace.tscn::PackedScene::458254375860855630::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
-title_list.gd::GDScript::-1::1710790433::0::1::::<>VBoxContainer<>::
-title_list.tscn::PackedScene::6134415340044566558::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
-update_button.gd::GDScript::-1::1710790433::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1710790433::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
-::res://addons/dialogue_manager/example_balloon/::1710790433
-example_balloon.gd::GDScript::-1::1710790433::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1710790433::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_example_balloon.tscn::PackedScene::1883859960814163368::1710790433::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-::res://addons/dialogue_manager/l10n/::1710790433
-en.mo::Translation::-1::1710790433::0::1::::<><>::
-en.po::Translation::-1::1710790433::0::1::::<><>::
-es.po::Translation::-1::1710790433::0::1::::<><>::
-zh.po::Translation::-1::1710790433::0::1::::<><>::
-zh_TW.po::Translation::-1::1710790433::0::1::::<><>::
-::res://addons/dialogue_manager/utilities/::1710790433
-builtins.gd::GDScript::-1::1710790433::0::1::::<>Object<>::
-::res://addons/dialogue_manager/views/::1710790433
-main_view.gd::GDScript::-1::1710790433::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1710790433::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
-settings_view.gd::GDScript::-1::1710790433::0::1::::<>TabContainer<>::
-settings_view.tscn::PackedScene::5839841081119266502::1710790433::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://Art Assets/::1711335594
-Icon_Arrow.png::CompressedTexture2D::8723189248880079805::1711334216::1711335594::1::::<><>::
-::res://Art Assets/Additional customer assets/::1711335594
-pipo-nekonin001.png::CompressedTexture2D::8848959345679867681::1566282908::1711335594::1::::<><>::
-pipo-nekonin002.png::CompressedTexture2D::4041023906559682840::1566282886::1711335594::1::::<><>::
-pipo-nekonin003.png::CompressedTexture2D::5474848457805466171::1566282902::1711335594::1::::<><>::
-pipo-nekonin004.png::CompressedTexture2D::2259691076865365113::1566282760::1711335594::1::::<><>::
-pipo-nekonin005.png::CompressedTexture2D::3197817196172375893::1566282802::1711335594::1::::<><>::
-pipo-nekonin006.png::CompressedTexture2D::1992426605713552551::1566282848::1711335594::1::::<><>::
-pipo-nekonin007.png::CompressedTexture2D::6165689287118899064::1566282840::1711335594::1::::<><>::
-pipo-nekonin008.png::CompressedTexture2D::398137954365582894::1566282818::1711335594::1::::<><>::
-pipo-nekonin009.png::CompressedTexture2D::5171703579212807964::1566282880::1711335594::1::::<><>::
-pipo-nekonin010.png::CompressedTexture2D::6359676859237574855::1566283446::1711335594::1::::<><>::
-pipo-nekonin011.png::CompressedTexture2D::6332032958763475103::1566282832::1711335594::1::::<><>::
-pipo-nekonin012.png::CompressedTexture2D::1496269901570730450::1566282866::1711335594::1::::<><>::
-pipo-nekonin013.png::CompressedTexture2D::9080450975077691739::1566283668::1711335594::1::::<><>::
-pipo-nekonin014.png::CompressedTexture2D::3725946544006163179::1566282858::1711335594::1::::<><>::
-pipo-nekonin015.png::CompressedTexture2D::7568251367672266212::1566282894::1711335594::1::::<><>::
-pipo-nekonin016.png::CompressedTexture2D::1628253861922773334::1566282916::1711335594::1::::<><>::
-pipo-nekonin017.png::CompressedTexture2D::3037264594512890559::1566282924::1711335594::1::::<><>::
-pipo-nekonin018.png::CompressedTexture2D::8721076885121697866::1566282930::1711335594::1::::<><>::
-pipo-nekonin019.png::CompressedTexture2D::8296966760551636934::1566282936::1711335594::1::::<><>::
-pipo-nekonin020.png::CompressedTexture2D::3066025377469111345::1566282948::1711335594::1::::<><>::
-pipo-nekonin021.png::CompressedTexture2D::492764954485678402::1628116692::1711335594::1::::<><>::
-pipo-nekonin022.png::CompressedTexture2D::210134675039504471::1628115918::1711335594::1::::<><>::
-pipo-nekonin023.png::CompressedTexture2D::8037385905179620806::1628118744::1711335594::1::::<><>::
-pipo-nekonin024.png::CompressedTexture2D::7068170766677457057::1628116402::1711335594::1::::<><>::
-pipo-nekonin025.png::CompressedTexture2D::8448560061149444210::1628118404::1711335594::1::::<><>::
-pipo-nekonin026.png::CompressedTexture2D::6282905028883615922::1628118298::1711335594::1::::<><>::
-pipo-nekonin027.png::CompressedTexture2D::6399435624537431928::1628116940::1711335594::1::::<><>::
-pipo-nekonin028.png::CompressedTexture2D::1244547963127404412::1627447976::1711335594::1::::<><>::
-pipo-nekonin029.png::CompressedTexture2D::4465654231356265062::1628116260::1711335594::1::::<><>::
-pipo-nekonin030.png::CompressedTexture2D::7803094977589620704::1628116750::1711335594::1::::<><>::
-pipo-nekonin031.png::CompressedTexture2D::2269538915490342408::1628116212::1711335594::1::::<><>::
-pipo-nekonin032.png::CompressedTexture2D::1292720366963029340::1628116104::1711335594::1::::<><>::
-::res://Art Assets/Background/::1710790433
-::res://Art Assets/Background/Decoration/::1710790433
-1_Generic_16x16.png::CompressedTexture2D::6232341203739143706::1710790433::1710790433::1::::<><>::
-12_Kitchen_16x16.png::CompressedTexture2D::8949791711327193748::1710790433::1710790433::1::::<><>::
-::res://Art Assets/Background/Foundation/::1710790433
-Room_Builder_3d_walls_16x16.png::CompressedTexture2D::6992215284944444338::1710790433::1710790433::1::::<><>::
-Room_Builder_Floors_16x16.png::CompressedTexture2D::8254956535951014550::1710790433::1710790433::1::::<><>::
-::res://Art Assets/Background/Scenic/::1710790433
-Modern_Exteriors_Complete_Tileset.png::CompressedTexture2D::1045614426510921160::1710790433::1710790433::1::::<><>::
-Updated_Modern_Exteriors_Complete_Tileset.png::CompressedTexture2D::372549843705126480::1710790433::1710790433::1::::<><>::
-::res://Art Assets/Player/::1711344666
-#1C Sorite Frame.tres::SpriteFrames::6996199970059555690::1711337039::0::1::::<><>::uid://dycrckd630nf2::::res://Art Assets/Additional customer assets/pipo-nekonin001.png
-#2C Sprite Frame.tres::SpriteFrames::1964468952129867071::1711337348::0::1::::<><>::uid://bxtrcq1s7s6vc::::res://Art Assets/Additional customer assets/pipo-nekonin002.png
-#3C Sprite Frame.tres::SpriteFrames::6434935628385910771::1711336784::0::1::::<><>::uid://ckab7pcpo3nol::::res://Art Assets/Additional customer assets/pipo-nekonin003.png
-down.png::CompressedTexture2D::6056508950489687411::1710790433::1710790433::1::::<><>::
-idles.png::CompressedTexture2D::4626299474578070194::1710790433::1710790433::1::::<><>::
-left-right.png::CompressedTexture2D::2644449390791106060::1710790433::1710790433::1::::<><>::
-player sprite frame.tres::SpriteFrames::7761787560582410281::1711344666::0::1::::<><>::uid://xg0drk06mlq1::::res://Art Assets/Additional customer assets/pipo-nekonin016.png
-up.png::CompressedTexture2D::2748609991477372987::1710790433::1710790433::1::::<><>::
-::res://Audio Assets/::1710790433
-::res://Audio Assets/Music/::1710790433
-1_new_life_master.mp3::AudioStreamMP3::3301666546512954919::1710790433::1710790433::1::::<><>::
-2_cafe_avenue_master.mp3::AudioStreamMP3::2434136147125122497::1710790433::1710790433::1::::<><>::
-3_fireflies_master.mp3::AudioStreamMP3::8583999241930655566::1710790433::1710790433::1::::<><>::
-4_working_time_master.mp3::AudioStreamMP3::4817766940436191925::1710790433::1710790433::1::::<><>::
-5_frog_pond_master.mp3::AudioStreamMP3::3723744426681633688::1710790433::1710790433::1::::<><>::
-17_new_season_stinger_master.mp3::AudioStreamMP3::7211508320002498010::1710790433::1710790433::1::::<><>::
-24_too_late!_stinger_master.mp3::AudioStreamMP3::4764759259842778989::1710790433::1710790433::1::::<><>::
-::res://Audio Assets/Sound Effects/::1710790433
-ambience-cafe001-52520.mp3::AudioStreamMP3::6903571108706284380::1710790433::1710790433::1::::<><>::
-cafe-ambience-9263.mp3::AudioStreamMP3::3173705603505890854::1710790433::1710790433::1::::<><>::
-coffee-machine-30756.mp3::AudioStreamMP3::7220003928108887058::1710790433::1710790433::1::::<><>::
-dialogue sounds.mp3::AudioStreamMP3::1774561716473625828::1710790433::1710790433::1::::<><>::
-footstep.mp3::AudioStreamMP3::2427410995250341835::1710790433::1710790433::1::::<><>::
-glass-clink-9-188130.mp3::AudioStreamMP3::5294165438033930601::1710790433::1710790433::1::::<><>::
-mug20200419-091759_01-40471.mp3::AudioStreamMP3::3002548483116554567::1710790433::1710790433::1::::<><>::
-Pour Milk.mp3::AudioStreamMP3::7693694615629558663::1710790433::1710790433::1::::<><>::
-pouring-coffee-6743.mp3::AudioStreamMP3::2826637060331829241::1710790433::1710790433::1::::<><>::
-sipping-coffee-95226.mp3::AudioStreamMP3::2014468147342963411::1710790433::1710790433::1::::<><>::
-::res://Dialogue/::1711343600
-C _Fishing_Trip.dialogue::Resource::2887069903952375267::1710790433::1711301188::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-C_Mechanic.dialogue::Resource::6168301468159095965::1710790433::1711301188::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-C_Mother.dialogue::Resource::3898071533624914962::1710790433::1711301188::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-state.gd::GDScript::-1::1711343600::0::1::::<>Node<>::
-::res://Dialogue/Test Dialogues/::1711344409
-Test.dialogue::Resource::6182846383313976692::1711344830::1711344830::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://Scenes/::1710790433
-::res://Scenes/Dialogue/::1711339604
-balloon.gd::GDScript::-1::1711335940::0::1::::<>CanvasLayer<>::
-balloon.tscn::PackedScene::2304415056852043862::1711339604::0::1::::<><>::res://Scenes/Dialogue/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd<>uid://0ju1iwxqnoc7::::res://Audio Assets/Sound Effects/dialogue sounds.mp3<>uid://dwjtwgidkvvfx::::res://Art Assets/Icon_Arrow.png
-::res://Scenes/Dialogue/Actionables/::1710790433
-Actionable.gd::GDScript::-1::1710790433::0::1::::<>Area2D<>::
-Actionable.tscn::PackedScene::4938746836229614418::1710790433::0::1::::<><>::res://Scenes/Dialogue/Actionables/Actionable.gd
-::res://Scenes/Objects and Entities/::1711344671
-#1C.tscn::PackedScene::2415769303306248563::1711339604::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://c6xanknuefbyo::::res://Art Assets/Player/#1C Sorite Frame.tres
-#2C.tscn::PackedScene::7180546763809880883::1711339604::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://28urthua8p64::::res://Art Assets/Player/#2C Sprite Frame.tres
-#3C.tscn::PackedScene::1011018610867177182::1711339604::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://cxxepj12adh76::::res://Art Assets/Player/#3C Sprite Frame.tres
-cup_station.tscn::PackedScene::6260961283005593318::1711344671::0::1::::<><>::uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>res://Scripts/Stations/CupStation.gd
-milk_station.tscn::PackedScene::2265762405173948260::1711331527::0::1::::<><>::res://Scripts/Stations/IngredientStation.gd<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png
-player.tscn::PackedScene::3475239647391348489::1711344671::0::1::::<><>::res://Scripts/Player.gd<>uid://dit4rihrjgd5b::::res://Art Assets/Player/player sprite frame.tres<>res://Scripts/PlayerInteractions.gd<>uid://bat4ds0anjut4::::res://Audio Assets/Sound Effects/footstep.mp3
-syrup_station.tscn::PackedScene::2359324029349011435::1711344671::0::1::::<><>::res://Scripts/Stations/IngredientStation.gd<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png
-::res://Scenes/Settings/::1711344671
-cafe.tscn::PackedScene::7867802890103119673::1710790433::0::1::::<><>::uid://bproxo1oqxdw0::::res://Scenes/Objects and Entities/player.tscn<>res://Scripts/CameraFollow.gd<>uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://bnbl73jtthctr::::res://Audio Assets/Music/1_new_life_master.mp3
-Kseniyas_cafe.tscn::PackedScene::1640545555917703861::1711344671::0::1::::<><>::uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://cu180p6ob5unq::::res://Art Assets/Background/Decoration/1_Generic_16x16.png<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>uid://fkp3u1e43qr5::::res://Art Assets/Background/Scenic/Updated_Modern_Exteriors_Complete_Tileset.png<>uid://7js1m2klb6i7::::res://Scenes/Objects and Entities/milk_station.tscn<>uid://cvg4d865bnhrq::::res://Scenes/Objects and Entities/cup_station.tscn<>uid://baohmq2k60bup::::res://Scenes/Objects and Entities/#1C.tscn<>uid://ccmmo6j5appio::::res://Scenes/Dialogue/Actionables/Actionable.tscn<>uid://bproxo1oqxdw0::::res://Scenes/Objects and Entities/player.tscn<>res://Scripts/CameraFollow.gd<>uid://csik6hgnysn54::::res://Scenes/Settings/pause_menu.tscn<>uid://ca24mo3da8q1p::::res://Scenes/UI Elements/CurrentCupUI.tscn<>uid://cudatutab310k::::res://Dialogue/Test Dialogues/Test.dialogue<>uid://cttvalg0lbmli::::res://Scenes/UI Elements/CurrentOrderUI.tscn<>uid://ct48a2yr7ik18::::res://Dialogue/C_Mechanic.dialogue<>uid://bnbl73jtthctr::::res://Audio Assets/Music/1_new_life_master.mp3<>uid://dakks54knl6ap::::res://Scenes/Objects and Entities/#2C.tscn<>uid://bvsiwy7mjp2xq::::res://Dialogue/C_Mother.dialogue<>uid://bgjikgd5d6jqn::::res://Audio Assets/Sound Effects/pouring-coffee-6743.mp3<>uid://on0lgdryvpes::::res://Scenes/Objects and Entities/#3C.tscn<>uid://dhu5a5l8uj7a6::::res://Audio Assets/Sound Effects/Pour Milk.mp3<>uid://chosep0yn2cld::::res://Audio Assets/Sound Effects/glass-clink-9-188130.mp3
-pause_menu.tscn::PackedScene::6053418481997713277::1710790433::0::1::::<><>::res://Scripts/pause_menu.gd
-::res://Scenes/UI Elements/::1711344671
-CurrentCupUI.tscn::PackedScene::4830362567781950635::1711344671::0::1::::<><>::
-CurrentOrderUI.tscn::PackedScene::6146928218860365830::1711344671::0::1::::<><>::
-::res://Scripts/::1711339813
-CameraFollow.gd::GDScript::-1::1710790433::0::1::::<>Camera2D<>::
-pause_menu.gd::GDScript::-1::1710790433::0::1::::<>Control<>::
-Player.gd::GDScript::-1::1711337348::0::1::::<>CharacterBody2D<>::
-PlayerInteractions.gd::GDScript::-1::1710790433::0::1::::<>Node<>::
-::res://Scripts/Data Structures/::1710790433
-Cup.gd::GDScript::-1::1710790433::0::1::::Cup<>RefCounted<>::
-Ingredient.gd::GDScript::-1::1710790433::0::1::::Ingredient<>RefCounted<>::
-Order.gd::GDScript::-1::1710790433::0::1::::Order<>RefCounted<>::
-Station.gd::GDScript::-1::1710790433::0::1::::<>Node2D<>::
-::res://Scripts/Stations/::1710790433
-CupStation.gd::GDScript::-1::1710790433::0::1::::<>Node2D<>::
-CustomerStation.gd::GDScript::-1::1710790433::0::1::::<>Node2D<>::
-IngredientStation.gd::GDScript::-1::1710790433::0::1::::<>Node2D<>::
-::res://Tilesets/::1710790433
-cafe_tileset.tres::TileSet::262574199584279460::1710790433::0::1::::<><>::uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://cu180p6ob5unq::::res://Art Assets/Background/Decoration/1_Generic_16x16.png<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>uid://o5rd8cho0xoi::::res://Art Assets/Background/Scenic/Modern_Exteriors_Complete_Tileset.png
+::res://::1711346224
+export_presets.cfg::TextFile::-1::1711346188::0::1::::<><>::
+icon.svg::CompressedTexture2D::5086190843030977586::1711346188::1711346188::1::::<><>::
+README.md::TextFile::-1::1711346188::0::1::::<><>::
+::res://addons/::1711346188
+::res://addons/dialogue_manager/::1711346188
+constants.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+dialogue_label.gd::GDScript::-1::1711346188::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.tscn::PackedScene::5518490004210093266::1711346188::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_line.gd::GDScript::-1::1711346188::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+dialogue_reponses_menu.gd::GDScript::-1::1711346188::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
+dialogue_resource.gd::GDScript::-1::1711346188::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1711346188::0::1::::DialogueResponse<>RefCounted<>::
+editor_translation_parser_plugin.gd::GDScript::-1::1711346188::0::1::::<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1711346188::0::1::::<>EditorImportPlugin<>::
+plugin.cfg::TextFile::-1::1711346188::0::1::::<><>::
+plugin.gd::GDScript::-1::1711346188::0::1::::<>EditorPlugin<>::
+settings.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+test_scene.gd::GDScript::-1::1711346188::0::1::::BaseDialogueTestScene<>Node2D<>::
+test_scene.tscn::PackedScene::-1::1711346188::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+::res://addons/dialogue_manager/assets/::1711346188
+icon.svg::CompressedTexture2D::9148339284877624195::1711346188::1711346188::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1711346188::1711346188::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1711346188::1711346188::1::::<><>::
+::res://addons/dialogue_manager/components/::1711346188
+code_edit.gd::GDScript::-1::1711346188::0::1::::<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1711346188::0::1::::<>SyntaxHighlighter<>::
+dialogue_cache.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+download_update_panel.gd::GDScript::-1::1711346188::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::1130642722554629364::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+errors_panel.gd::GDScript::-1::1711346188::0::1::::<>HBoxContainer<>::
+errors_panel.tscn::PackedScene::6105315990352960875::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1711346188::0::1::::<>VBoxContainer<>::
+files_list.tscn::PackedScene::8113335055803740416::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+parser.gd::GDScript::-1::1711346188::0::1::::DialogueManagerParser<>Object<>::
+parse_result.gd::GDScript::-1::1711346188::0::1::::DialogueManagerParseResult<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1711346188::0::1::::<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1711346188::0::1::::<>RefCounted<>::
+search_and_replace.gd::GDScript::-1::1711346188::0::1::::<>VBoxContainer<>::
+search_and_replace.tscn::PackedScene::458254375860855630::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
+title_list.gd::GDScript::-1::1711346188::0::1::::<>VBoxContainer<>::
+title_list.tscn::PackedScene::6134415340044566558::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1711346188::0::1::::<>Button<>::
+update_button.tscn::PackedScene::5825087957514786930::1711346188::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+::res://addons/dialogue_manager/example_balloon/::1711346188
+example_balloon.gd::GDScript::-1::1711346188::0::1::::<>CanvasLayer<>::
+example_balloon.tscn::PackedScene::2304415056852043862::1711346188::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+small_example_balloon.tscn::PackedScene::1883859960814163368::1711346188::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+::res://addons/dialogue_manager/l10n/::1711346188
+en.mo::Translation::-1::1711346188::0::1::::<><>::
+en.po::Translation::-1::1711346188::0::1::::<><>::
+es.po::Translation::-1::1711346188::0::1::::<><>::
+zh.po::Translation::-1::1711346188::0::1::::<><>::
+zh_TW.po::Translation::-1::1711346188::0::1::::<><>::
+::res://addons/dialogue_manager/utilities/::1711346188
+builtins.gd::GDScript::-1::1711346188::0::1::::<>Object<>::
+::res://addons/dialogue_manager/views/::1711346188
+main_view.gd::GDScript::-1::1711346188::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1711346188::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
+settings_view.gd::GDScript::-1::1711346188::0::1::::<>TabContainer<>::
+settings_view.tscn::PackedScene::5839841081119266502::1711346188::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
+::res://Art Assets/::1711346187
+Icon_Arrow.png::CompressedTexture2D::8723189248880079805::1711346187::1711346187::1::::<><>::
+::res://Art Assets/Additional customer assets/::1711346187
+pipo-nekonin001.png::CompressedTexture2D::8848959345679867681::1711346187::1711346187::1::::<><>::
+pipo-nekonin002.png::CompressedTexture2D::4041023906559682840::1711346187::1711346187::1::::<><>::
+pipo-nekonin003.png::CompressedTexture2D::5474848457805466171::1711346187::1711346187::1::::<><>::
+pipo-nekonin004.png::CompressedTexture2D::2259691076865365113::1711346187::1711346187::1::::<><>::
+pipo-nekonin005.png::CompressedTexture2D::3197817196172375893::1711346187::1711346187::1::::<><>::
+pipo-nekonin006.png::CompressedTexture2D::1992426605713552551::1711346187::1711346187::1::::<><>::
+pipo-nekonin007.png::CompressedTexture2D::6165689287118899064::1711346187::1711346187::1::::<><>::
+pipo-nekonin008.png::CompressedTexture2D::398137954365582894::1711346187::1711346187::1::::<><>::
+pipo-nekonin009.png::CompressedTexture2D::5171703579212807964::1711346187::1711346187::1::::<><>::
+pipo-nekonin010.png::CompressedTexture2D::6359676859237574855::1711346187::1711346187::1::::<><>::
+pipo-nekonin011.png::CompressedTexture2D::6332032958763475103::1711346187::1711346187::1::::<><>::
+pipo-nekonin012.png::CompressedTexture2D::1496269901570730450::1711346187::1711346187::1::::<><>::
+pipo-nekonin013.png::CompressedTexture2D::9080450975077691739::1711346187::1711346187::1::::<><>::
+pipo-nekonin014.png::CompressedTexture2D::3725946544006163179::1711346187::1711346187::1::::<><>::
+pipo-nekonin015.png::CompressedTexture2D::7568251367672266212::1711346187::1711346187::1::::<><>::
+pipo-nekonin016.png::CompressedTexture2D::1628253861922773334::1711346187::1711346187::1::::<><>::
+pipo-nekonin017.png::CompressedTexture2D::3037264594512890559::1711346187::1711346187::1::::<><>::
+pipo-nekonin018.png::CompressedTexture2D::8721076885121697866::1711346187::1711346187::1::::<><>::
+pipo-nekonin019.png::CompressedTexture2D::8296966760551636934::1711346187::1711346187::1::::<><>::
+pipo-nekonin020.png::CompressedTexture2D::3066025377469111345::1711346187::1711346187::1::::<><>::
+pipo-nekonin021.png::CompressedTexture2D::492764954485678402::1711346187::1711346187::1::::<><>::
+pipo-nekonin022.png::CompressedTexture2D::210134675039504471::1711346187::1711346187::1::::<><>::
+pipo-nekonin023.png::CompressedTexture2D::8037385905179620806::1711346187::1711346187::1::::<><>::
+pipo-nekonin024.png::CompressedTexture2D::7068170766677457057::1711346187::1711346187::1::::<><>::
+pipo-nekonin025.png::CompressedTexture2D::8448560061149444210::1711346187::1711346187::1::::<><>::
+pipo-nekonin026.png::CompressedTexture2D::6282905028883615922::1711346187::1711346187::1::::<><>::
+pipo-nekonin027.png::CompressedTexture2D::6399435624537431928::1711346187::1711346187::1::::<><>::
+pipo-nekonin028.png::CompressedTexture2D::1244547963127404412::1711346187::1711346187::1::::<><>::
+pipo-nekonin029.png::CompressedTexture2D::4465654231356265062::1711346187::1711346187::1::::<><>::
+pipo-nekonin030.png::CompressedTexture2D::7803094977589620704::1711346187::1711346187::1::::<><>::
+pipo-nekonin031.png::CompressedTexture2D::2269538915490342408::1711346187::1711346187::1::::<><>::
+pipo-nekonin032.png::CompressedTexture2D::1292720366963029340::1711346187::1711346187::1::::<><>::
+::res://Art Assets/Background/::1711346187
+::res://Art Assets/Background/Decoration/::1711346187
+1_Generic_16x16.png::CompressedTexture2D::6232341203739143706::1711346187::1711346187::1::::<><>::
+12_Kitchen_16x16.png::CompressedTexture2D::8949791711327193748::1711346187::1711346187::1::::<><>::
+::res://Art Assets/Background/Foundation/::1711346187
+Room_Builder_3d_walls_16x16.png::CompressedTexture2D::6992215284944444338::1711346187::1711346187::1::::<><>::
+Room_Builder_Floors_16x16.png::CompressedTexture2D::8254956535951014550::1711346187::1711346187::1::::<><>::
+::res://Art Assets/Background/Scenic/::1711346187
+Modern_Exteriors_Complete_Tileset.png::CompressedTexture2D::1045614426510921160::1711346187::1711346187::1::::<><>::
+Updated_Modern_Exteriors_Complete_Tileset.png::CompressedTexture2D::372549843705126480::1711346187::1711346187::1::::<><>::
+::res://Art Assets/Player/::1711346187
+#1C Sorite Frame.tres::SpriteFrames::6996199970059555690::1711346187::0::1::::<><>::uid://dycrckd630nf2::::res://Art Assets/Additional customer assets/pipo-nekonin001.png
+#2C Sprite Frame.tres::SpriteFrames::1964468952129867071::1711346187::0::1::::<><>::uid://bxtrcq1s7s6vc::::res://Art Assets/Additional customer assets/pipo-nekonin002.png
+#3C Sprite Frame.tres::SpriteFrames::6434935628385910771::1711346187::0::1::::<><>::uid://ckab7pcpo3nol::::res://Art Assets/Additional customer assets/pipo-nekonin003.png
+down.png::CompressedTexture2D::6056508950489687411::1711346187::1711346187::1::::<><>::
+idles.png::CompressedTexture2D::4626299474578070194::1711346187::1711346187::1::::<><>::
+left-right.png::CompressedTexture2D::2644449390791106060::1711346187::1711346187::1::::<><>::
+player sprite frame.tres::SpriteFrames::7761787560582410281::1711346187::0::1::::<><>::uid://xg0drk06mlq1::::res://Art Assets/Additional customer assets/pipo-nekonin016.png
+up.png::CompressedTexture2D::2748609991477372987::1711346187::1711346187::1::::<><>::
+::res://Audio Assets/::1711346187
+::res://Audio Assets/Music/::1711346187
+1_new_life_master.mp3::AudioStreamMP3::3301666546512954919::1711346187::1711346187::1::::<><>::
+2_cafe_avenue_master.mp3::AudioStreamMP3::2434136147125122497::1711346187::1711346187::1::::<><>::
+3_fireflies_master.mp3::AudioStreamMP3::8583999241930655566::1711346187::1711346187::1::::<><>::
+4_working_time_master.mp3::AudioStreamMP3::4817766940436191925::1711346187::1711346187::1::::<><>::
+5_frog_pond_master.mp3::AudioStreamMP3::3723744426681633688::1711346187::1711346187::1::::<><>::
+17_new_season_stinger_master.mp3::AudioStreamMP3::7211508320002498010::1711346187::1711346187::1::::<><>::
+24_too_late!_stinger_master.mp3::AudioStreamMP3::4764759259842778989::1711346187::1711346187::1::::<><>::
+::res://Audio Assets/Sound Effects/::1711346188
+ambience-cafe001-52520.mp3::AudioStreamMP3::6903571108706284380::1711346188::1711346188::1::::<><>::
+cafe-ambience-9263.mp3::AudioStreamMP3::3173705603505890854::1711346188::1711346188::1::::<><>::
+coffee-machine-30756.mp3::AudioStreamMP3::7220003928108887058::1711346188::1711346188::1::::<><>::
+dialogue sounds.mp3::AudioStreamMP3::1774561716473625828::1711346188::1711346188::1::::<><>::
+footstep.mp3::AudioStreamMP3::2427410995250341835::1711346188::1711346188::1::::<><>::
+glass-clink-9-188130.mp3::AudioStreamMP3::5294165438033930601::1711346188::1711346188::1::::<><>::
+mug20200419-091759_01-40471.mp3::AudioStreamMP3::3002548483116554567::1711346188::1711346188::1::::<><>::
+Pour Milk.mp3::AudioStreamMP3::7693694615629558663::1711346187::1711346187::1::::<><>::
+pouring-coffee-6743.mp3::AudioStreamMP3::2826637060331829241::1711346188::1711346188::1::::<><>::
+sipping-coffee-95226.mp3::AudioStreamMP3::2014468147342963411::1711346188::1711346188::1::::<><>::
+::res://Dialogue/::1711346188
+C _Fishing_Trip.dialogue::Resource::2887069903952375267::1711346188::1711346188::1::::<><>::
+C_Mechanic.dialogue::Resource::6168301468159095965::1711346188::1711346188::1::::<><>::
+C_Mother.dialogue::Resource::3898071533624914962::1711346188::1711346188::1::::<><>::
+state.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+::res://Dialogue/Test Dialogues/::1711346188
+Test.dialogue::Resource::6182846383313976692::1711346188::1711346188::1::::<><>::
+::res://Scenes/::1711346188
+::res://Scenes/Dialogue/::1711346188
+balloon.gd::GDScript::-1::1711346188::0::1::::<>CanvasLayer<>::
+balloon.tscn::PackedScene::2304415056852043862::1711346188::0::1::::<><>::res://Scenes/Dialogue/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd<>uid://0ju1iwxqnoc7::::res://Audio Assets/Sound Effects/dialogue sounds.mp3<>uid://dwjtwgidkvvfx::::res://Art Assets/Icon_Arrow.png
+::res://Scenes/Dialogue/Actionables/::1711346188
+Actionable.gd::GDScript::-1::1711346188::0::1::::<>Area2D<>::
+Actionable.tscn::PackedScene::4938746836229614418::1711346188::0::1::::<><>::res://Scenes/Dialogue/Actionables/Actionable.gd
+::res://Scenes/Objects and Entities/::1711346188
+#1C.tscn::PackedScene::2415769303306248563::1711346188::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://c6xanknuefbyo::::res://Art Assets/Player/#1C Sorite Frame.tres
+#2C.tscn::PackedScene::7180546763809880883::1711346188::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://28urthua8p64::::res://Art Assets/Player/#2C Sprite Frame.tres
+#3C.tscn::PackedScene::1011018610867177182::1711346188::0::1::::<><>::res://Scripts/Stations/CustomerStation.gd<>uid://cxxepj12adh76::::res://Art Assets/Player/#3C Sprite Frame.tres
+cup_station.tscn::PackedScene::6260961283005593318::1711346188::0::1::::<><>::uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>res://Scripts/Stations/CupStation.gd
+milk_station.tscn::PackedScene::2265762405173948260::1711346188::0::1::::<><>::res://Scripts/Stations/IngredientStation.gd<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png
+player.tscn::PackedScene::3475239647391348489::1711346188::0::1::::<><>::res://Scripts/Player.gd<>uid://dit4rihrjgd5b::::res://Art Assets/Player/player sprite frame.tres<>res://Scripts/PlayerInteractions.gd<>uid://bat4ds0anjut4::::res://Audio Assets/Sound Effects/footstep.mp3
+syrup_station.tscn::PackedScene::2359324029349011435::1711346188::0::1::::<><>::res://Scripts/Stations/IngredientStation.gd<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png
+::res://Scenes/Settings/::1711346188
+cafe.tscn::PackedScene::7867802890103119673::1711346188::0::1::::<><>::uid://bproxo1oqxdw0::::res://Scenes/Objects and Entities/player.tscn<>res://Scripts/CameraFollow.gd<>uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://bnbl73jtthctr::::res://Audio Assets/Music/1_new_life_master.mp3
+Kseniyas_cafe.tscn::PackedScene::1640545555917703861::1711346188::0::1::::<><>::uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://cu180p6ob5unq::::res://Art Assets/Background/Decoration/1_Generic_16x16.png<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>uid://fkp3u1e43qr5::::res://Art Assets/Background/Scenic/Updated_Modern_Exteriors_Complete_Tileset.png<>uid://7js1m2klb6i7::::res://Scenes/Objects and Entities/milk_station.tscn<>uid://cvg4d865bnhrq::::res://Scenes/Objects and Entities/cup_station.tscn<>uid://baohmq2k60bup::::res://Scenes/Objects and Entities/#1C.tscn<>uid://ccmmo6j5appio::::res://Scenes/Dialogue/Actionables/Actionable.tscn<>uid://bproxo1oqxdw0::::res://Scenes/Objects and Entities/player.tscn<>res://Scripts/CameraFollow.gd<>uid://csik6hgnysn54::::res://Scenes/Settings/pause_menu.tscn<>uid://ca24mo3da8q1p::::res://Scenes/UI Elements/CurrentCupUI.tscn<>uid://cudatutab310k::::res://Dialogue/Test Dialogues/Test.dialogue<>uid://cttvalg0lbmli::::res://Scenes/UI Elements/CurrentOrderUI.tscn<>uid://ct48a2yr7ik18::::res://Dialogue/C_Mechanic.dialogue<>uid://bnbl73jtthctr::::res://Audio Assets/Music/1_new_life_master.mp3<>uid://dakks54knl6ap::::res://Scenes/Objects and Entities/#2C.tscn<>uid://bvsiwy7mjp2xq::::res://Dialogue/C_Mother.dialogue<>uid://bgjikgd5d6jqn::::res://Audio Assets/Sound Effects/pouring-coffee-6743.mp3<>uid://on0lgdryvpes::::res://Scenes/Objects and Entities/#3C.tscn<>uid://dhu5a5l8uj7a6::::res://Audio Assets/Sound Effects/Pour Milk.mp3<>uid://chosep0yn2cld::::res://Audio Assets/Sound Effects/glass-clink-9-188130.mp3
+pause_menu.tscn::PackedScene::6053418481997713277::1711346188::0::1::::<><>::res://Scripts/pause_menu.gd
+::res://Scenes/UI Elements/::1711346188
+CurrentCupUI.tscn::PackedScene::4830362567781950635::1711346188::0::1::::<><>::
+CurrentOrderUI.tscn::PackedScene::6146928218860365830::1711346188::0::1::::<><>::
+::res://Scripts/::1711346188
+CameraFollow.gd::GDScript::-1::1711346188::0::1::::<>Camera2D<>::
+pause_menu.gd::GDScript::-1::1711346188::0::1::::<>Control<>::
+Player.gd::GDScript::-1::1711346188::0::1::::<>CharacterBody2D<>::
+PlayerInteractions.gd::GDScript::-1::1711346188::0::1::::<>Node<>::
+::res://Scripts/Data Structures/::1711346188
+Cup.gd::GDScript::-1::1711346188::0::1::::Cup<>RefCounted<>::
+Ingredient.gd::GDScript::-1::1711346188::0::1::::Ingredient<>RefCounted<>::
+Order.gd::GDScript::-1::1711346188::0::1::::Order<>RefCounted<>::
+Station.gd::GDScript::-1::1711346188::0::1::::<>Node2D<>::
+::res://Scripts/Stations/::1711346188
+CupStation.gd::GDScript::-1::1711346188::0::1::::<>Node2D<>::
+CustomerStation.gd::GDScript::-1::1711346188::0::1::::<>Node2D<>::
+IngredientStation.gd::GDScript::-1::1711346188::0::1::::<>Node2D<>::
+::res://Tilesets/::1711346188
+cafe_tileset.tres::TileSet::262574199584279460::1711346188::0::1::::<><>::uid://dpu06s4msxcss::::res://Art Assets/Background/Foundation/Room_Builder_Floors_16x16.png<>uid://c6vc08m3w1f4u::::res://Art Assets/Background/Foundation/Room_Builder_3d_walls_16x16.png<>uid://cu180p6ob5unq::::res://Art Assets/Background/Decoration/1_Generic_16x16.png<>uid://d0rl0505tyae3::::res://Art Assets/Background/Decoration/12_Kitchen_16x16.png<>uid://o5rd8cho0xoi::::res://Art Assets/Background/Scenic/Modern_Exteriors_Complete_Tileset.png
