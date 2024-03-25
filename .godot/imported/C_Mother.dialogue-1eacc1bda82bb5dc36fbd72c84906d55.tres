@@ -1,0 +1,387 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_6jssd"]
+
+[resource]
+script = ExtResource("1_6jssd")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Bearista", "Mother")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "14",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "Coming right up! Anything to nibble on?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Coming right up! Anything to nibble on?",
+"type": "dialogue"
+},
+"11": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Latte",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Latte",
+"type": "response"
+},
+"12": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"notes": "",
+"parent_id": "11",
+"tags": PackedStringArray(),
+"text": "Latte, thanks. Just the coffee today.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Latte, thanks. Just the coffee today.",
+"type": "dialogue"
+},
+"13": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "14",
+"notes": "",
+"parent_id": "11",
+"tags": PackedStringArray(),
+"text": "Alright, one latte. That'll be ready in just a moment.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Alright, one latte. That'll be ready in just a moment.",
+"type": "dialogue"
+},
+"14": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Is there anything else I can help with today",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Is there anything else I can help with today",
+"type": "dialogue"
+},
+"15": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Actually, do you have any snacks for kids?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Actually, do you have any snacks for kids?",
+"type": "dialogue"
+},
+"16": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"next_id_after": "25",
+"notes": "",
+"responses": PackedStringArray("16", "19", "22"),
+"tags": PackedStringArray(),
+"text": "Fruit Cups",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Fruit Cups",
+"type": "response"
+},
+"17": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "18",
+"notes": "",
+"parent_id": "16",
+"tags": PackedStringArray(),
+"text": "A fruit cup, please.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A fruit cup, please.",
+"type": "dialogue"
+},
+"18": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "25",
+"notes": "",
+"parent_id": "16",
+"tags": PackedStringArray(),
+"text": "Perfect choice! I'll add that to your order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect choice! I'll add that to your order.",
+"type": "dialogue"
+},
+"19": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "20",
+"next_id_after": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Animal Cracker",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Animal Cracker",
+"type": "response"
+},
+"2": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Good morning! What can I get started for you today?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Good morning! What can I get started for you today?",
+"type": "dialogue"
+},
+"20": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "21",
+"notes": "",
+"parent_id": "19",
+"tags": PackedStringArray(),
+"text": "A animal cracker, please.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A animal cracker, please.",
+"type": "dialogue"
+},
+"21": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "25",
+"notes": "",
+"parent_id": "19",
+"tags": PackedStringArray(),
+"text": "Perfect choice! I'll add that to your order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect choice! I'll add that to your order.",
+"type": "dialogue"
+},
+"22": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "22",
+"next_id": "23",
+"next_id_after": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Orange Juice",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Orange Juice",
+"type": "response"
+},
+"23": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "24",
+"notes": "",
+"parent_id": "22",
+"tags": PackedStringArray(),
+"text": "A orange juice, please.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A orange juice, please.",
+"type": "dialogue"
+},
+"24": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "24",
+"next_id": "25",
+"notes": "",
+"parent_id": "22",
+"tags": PackedStringArray(),
+"text": "Perfect choice! I'll add that to your order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Perfect choice! I'll add that to your order.",
+"type": "dialogue"
+},
+"25": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "25",
+"next_id": "26",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Is this a little pick-me-up before a busy day?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Is this a little pick-me-up before a busy day?",
+"type": "dialogue"
+},
+"26": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "26",
+"next_id": "27",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Yes, I'm off to pick up my daughter from kindergarten soon.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Yes, I'm off to pick up my daughter from kindergarten soon.",
+"type": "dialogue"
+},
+"27": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "27",
+"next_id": "28",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "How sweet! I'll make sure your coffee is extra special today.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "How sweet! I'll make sure your coffee is extra special today.",
+"type": "dialogue"
+},
+"28": {
+"id": "28",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"3": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Hi there! I'll need a strong coffee, please. It's been one of those mornings.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hi there! I'll need a strong coffee, please. It's been one of those mornings.",
+"type": "dialogue"
+},
+"4": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "What types of Coffee do you have",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "What types of Coffee do you have",
+"type": "dialogue"
+},
+"5": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"next_id_after": "14",
+"notes": "",
+"responses": PackedStringArray("5", "8", "11"),
+"tags": PackedStringArray(),
+"text": "Espresso",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Espresso",
+"type": "response"
+},
+"6": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "Espresso, please. Need that quick energy!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Espresso, please. Need that quick energy!",
+"type": "dialogue"
+},
+"7": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "14",
+"notes": "",
+"parent_id": "5",
+"tags": PackedStringArray(),
+"text": "Got it! Would you like a single or a double shot?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Got it! Would you like a single or a double shot?",
+"type": "dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Double shot",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Double shot",
+"type": "response"
+},
+"9": {
+"character": "Mother",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"notes": "",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "Double shot espresso, please. Thanks!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Double shot espresso, please. Thanks!",
+"type": "dialogue"
+}
+}
+raw_text = "~ start
+Bearista: Good morning! What can I get started for you today?
+Mother: Hi there! I'll need a strong coffee, please. It's been one of those mornings.
+Mother: What types of Coffee do you have 
+- Espresso
+	Mother: Espresso, please. Need that quick energy!
+	Bearista: Got it! Would you like a single or a double shot?
+- Double shot
+	Mother: Double shot espresso, please. Thanks!
+	Bearista: Coming right up! Anything to nibble on?
+- Latte
+	Mother: Latte, thanks. Just the coffee today.
+	Bearista: Alright, one latte. That'll be ready in just a moment.
+Bearista: Is there anything else I can help with today
+Mother: Actually, do you have any snacks for kids?
+- Fruit Cups
+	Mother: A fruit cup, please.
+	Bearista: Perfect choice! I'll add that to your order.
+- Animal Cracker
+	Mother: A animal cracker, please.
+	Bearista: Perfect choice! I'll add that to your order.
+- Orange Juice
+	Mother: A orange juice, please.
+	Bearista: Perfect choice! I'll add that to your order.
+Bearista: Is this a little pick-me-up before a busy day?
+Mother: Yes, I'm off to pick up my daughter from kindergarten soon.
+Bearista: How sweet! I'll make sure your coffee is extra special today.
+=> END"
+metadata/dialogue_manager_version = "2.35.0"

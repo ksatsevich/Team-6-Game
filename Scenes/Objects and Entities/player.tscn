@@ -1,16 +1,16 @@
 [gd_scene load_steps=7 format=3 uid="uid://bproxo1oqxdw0"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_fglay"]
-[ext_resource type="SpriteFrames" uid="uid://cxxepj12adh76" path="res://Art Assets/Player/player_animations.tres" id="2_1k0wx"]
+[ext_resource type="SpriteFrames" uid="uid://dit4rihrjgd5b" path="res://Art Assets/Player/player sprite frame.tres" id="2_d3sob"]
 [ext_resource type="Script" path="res://Scripts/PlayerInteractions.gd" id="3_uh03k"]
 [ext_resource type="AudioStream" uid="uid://bat4ds0anjut4" path="res://Audio Assets/Sound Effects/footstep.mp3" id="4_032g1"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0454b"]
-radius = 34.1935
-height = 85.4838
+radius = 41.8871
+height = 181.257
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_yspyh"]
-radius = 42.0476
+radius = 93.3435
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 1
@@ -22,8 +22,9 @@ metadata/_edit_group_ = true
 texture_filter = 1
 position = Vector2(0, -47)
 scale = Vector2(5, 5)
-sprite_frames = ExtResource("2_1k0wx")
-animation = &"down_idle"
+sprite_frames = ExtResource("2_d3sob")
+animation = &"sw"
+frame_progress = 0.148276
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -27)

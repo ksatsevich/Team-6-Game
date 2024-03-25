@@ -65,17 +65,17 @@ func _process(delta):
 # Handles animations and sets sprite according to the velocity
 func do_animations(velocity):
 	if velocity.y < 0:
-		anim.play("up_walk")
+		anim.play("uw")
 		direction_facing = "up"
 	elif velocity.y > 0:
-		anim.play("down_walk")
+		anim.play("dw")
 		direction_facing = "down"
 	elif velocity.x > 0:
-		anim.play("side_walk")
+		anim.play("sw")
 		direction_facing = "right"
 		anim.flip_h = false
 	elif velocity.x < 0:
-		anim.play("side_walk")
+		anim.play("sw")
 		direction_facing = "left"
 		anim.flip_h = true
 	
@@ -87,13 +87,13 @@ func do_animations(velocity):
 	if velocity.x == 0 and velocity.y == 0:
 		match direction_facing:
 			"up":
-				anim.play("up_idle")
+				anim.play("ui")
 			"down":
-				anim.play("down_idle")
+				anim.play("di")
 			"left":
-				anim.play("side_idle")
+				anim.play("si")
 			"right":
-				anim.play("side_idle")
+				anim.play("si")
 			_:
 				printerr("Line 64 in Player.gd, No direction found!")
 				

@@ -1,0 +1,223 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_5mfx2"]
+
+[resource]
+script = ExtResource("1_5mfx2")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Bearista", "Mechanic")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "11",
+"notes": "",
+"parent_id": "9",
+"tags": PackedStringArray(),
+"text": "One Turbo Charged Latte, coming up! How do you take it, regular or with an extra shot of espresso?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "One Turbo Charged Latte, coming up! How do you take it, regular or with an extra shot of espresso?",
+"type": "dialogue"
+},
+"11": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"notes": "",
+"parent_id": "9",
+"tags": PackedStringArray(),
+"text": "Throw in the extra shot. Sounds like just what I need.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Throw in the extra shot. Sounds like just what I need.",
+"type": "dialogue"
+},
+"12": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"notes": "",
+"parent_id": "9",
+"tags": PackedStringArray(),
+"text": "You got it! Would you like any pastries to go with that? A little fuel for the mechanic?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "You got it! Would you like any pastries to go with that? A little fuel for the mechanic?",
+"type": "dialogue"
+},
+"13": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "15",
+"notes": "",
+"parent_id": "9",
+"tags": PackedStringArray(),
+"text": "Sure, surprise me with something sweet.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sure, surprise me with something sweet.",
+"type": "dialogue"
+},
+"15": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Will that be all for today?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Will that be all for today?",
+"type": "dialogue"
+},
+"16": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Yes, thank you!!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Yes, thank you!!",
+"type": "dialogue"
+},
+"17": {
+"id": "17",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"2": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Welcome to the Cozy Den Café! What can I brew for you today?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Welcome to the Cozy Den Café! What can I brew for you today?",
+"type": "dialogue"
+},
+"3": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Hey there! I've been under cars all day. Need something strong. What do you recommend?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hey there! I've been under cars all day. Need something strong. What do you recommend?",
+"type": "dialogue"
+},
+"4": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"next_id_after": "15",
+"notes": "",
+"responses": PackedStringArray("4", "9"),
+"tags": PackedStringArray(),
+"text": "Espresso, a bold choice for a bold job.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Espresso, a bold choice for a bold job.",
+"type": "response"
+},
+"5": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Espresso it is! Single or double shot?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Espresso it is! Single or double shot?",
+"type": "dialogue"
+},
+"6": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Make it a double. Need all the help I can get.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Make it a double. Need all the help I can get.",
+"type": "dialogue"
+},
+"7": {
+"character": "Bearista",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "8",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Coming right up! Anything to sweeten the deal for you?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Coming right up! Anything to sweeten the deal for you?",
+"type": "dialogue"
+},
+"8": {
+"character": "Mechanic",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "15",
+"notes": "",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Nah, I like it bitter. Matches my morning mood.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Nah, I like it bitter. Matches my morning mood.",
+"type": "dialogue"
+},
+"9": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"next_id_after": "15",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Turbo Charged Latte, it’s like a tune-up for your taste buds.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Turbo Charged Latte, it’s like a tune-up for your taste buds.",
+"type": "response"
+}
+}
+raw_text = "~ start
+Bearista: Welcome to the Cozy Den Café! What can I brew for you today?
+Mechanic: Hey there! I've been under cars all day. Need something strong. What do you recommend?
+- Espresso, a bold choice for a bold job.
+	Bearista: Espresso it is! Single or double shot?
+	Mechanic: Make it a double. Need all the help I can get.
+	Bearista: Coming right up! Anything to sweeten the deal for you?
+	Mechanic: Nah, I like it bitter. Matches my morning mood.
+- Turbo Charged Latte, it’s like a tune-up for your taste buds.
+	Bearista: One Turbo Charged Latte, coming up! How do you take it, regular or with an extra shot of espresso?
+	Mechanic: Throw in the extra shot. Sounds like just what I need.
+	Bearista: You got it! Would you like any pastries to go with that? A little fuel for the mechanic?
+	Mechanic: Sure, surprise me with something sweet.
+
+Bearista: Will that be all for today?
+Mechanic: Yes, thank you!!
+=> END"
+metadata/dialogue_manager_version = "2.35.0"

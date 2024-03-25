@@ -1,30 +1,35 @@
 ~ start
-Bearista: conversation
-Customer: conversation reponse
-Bearista: question
-- answer 1
-	Customer: response to the answer
-	Bearista: response to the response
-- answer 2
-	Customer: reponse to the answer
-	Bearista: reponse to the reponse to the answer
-Bearista: continuation of the conversation
-Customer: continuation of the conversation
-Bearista: continuation of the conversation
-Customer: continuation of the conversation
-Bearista: continuation of the conversation
-Customer: question 2
-- answer 1
-	Customer: response to the answer
-	Bearista: response to the response
-- answer 2
-	Customer: reponse to the answer
-	Bearista: reponse to the reponse to the answer
-	Customer: reponse to the answer
-	Bearista: reponse to the reponse to the answer
-Bearista: end of conversation 
 
-
-
+#starts with waiting_to_order
+Bearista: talk
+Customer: talk2
+if State.coffee_cup == "has":
+	Customer: do you have my coffee
+	Bearista: here is your cofee
+	- give the coffee to customer
+		set coffee_cup = "waiting_for_an_order"
+		Bearista: yes i do 
+		Customer: thank youuuu
+	- fix the order
+		Bearista: i need to make it better
+		set coffee_cup = "has"
+		Customer: I will be waiting
+elif State.coffee_cup == "doing":
+	Customer: Sure would love to drink my coffee today
+	Customer: have you finished it
+	- yes
+		set coffee_cup = "has"
+		Customer: awesome
+	- no
+		set coffee_cup = "doing"
+		Customer: I will be waiting
+elif State.coffee_cup == "waiting_to_order":
+	#insert the order connection here 
+	Customer: that is what i want  test : I want vanilla
+	set coffee_cup = "doing"
+	Bearista: that will be right out
+else:
+	Customer: ordering talk1
+	Bearista: ordering talk2
 
 => END
