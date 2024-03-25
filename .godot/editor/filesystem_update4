@@ -1,2 +1,19 @@
 res://Scenes/Settings/Kseniyas_cafe.tscn
 res://Art Assets/Player/player_animations.tres
+res://Scenes/Objects and Entities/milk_station.tscn
+res://Scenes/Objects and Entities/cup_station.tscn
+res://Scenes/UI Elements/CurrentOrderUI.tscn
+res://Scenes/UI Elements/CurrentCupUI.tscn
+res://Scenes/Dialogue/balloon.tscn
+res://Scenes/Dialogue/balloon.gd
+res://Scenes/Objects and Entities/syrup_station.tscn
+res://Scenes/Objects and Entities/player.tscn
+res://Scenes/Objects and Entities/customer.tscn
+res://Scenes/Objects and Entities/#1C.tscn
+res://Scenes/Objects and Entities/#3C.tscn
+res://Scenes/Objects and Entities/#2C.tscn
+res://Art Assets/Player/#2C Sprite Frame.tres
+res://Art Assets/Player/player sprite frame.tres
+res://Scripts/Player.gd
+res://Dialogue/state.gd
+res://Scripts/Stations/CupStation.gd

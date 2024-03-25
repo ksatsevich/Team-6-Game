@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://73jm5qjy52vq"]
+[gd_scene load_steps=14 format=3 uid="uid://73jm5qjy52vq"]
 
 [ext_resource type="Script" path="res://Scenes/Dialogue/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
 [ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_reponses_menu.gd" id="3_72ixx"]
 [ext_resource type="AudioStream" uid="uid://0ju1iwxqnoc7" path="res://Audio Assets/Sound Effects/dialogue sounds.mp3" id="4_82mms"]
+[ext_resource type="Texture2D" uid="uid://dwjtwgidkvvfx" path="res://Art Assets/Icon_Arrow.png" id="4_ys8cr"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
@@ -66,6 +67,41 @@ MarginContainer/constants/margin_left = 45
 MarginContainer/constants/margin_right = 45
 MarginContainer/constants/margin_top = 45
 Panel/styles/panel = SubResource("StyleBoxFlat_uy0d5")
+
+[sub_resource type="Animation" id="Animation_3n6j3"]
+resource_name = "indicator"
+loop_mode = 1
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(1132, -0.25, 0, 0.25, 0, 1120, -0.25, 0, 0.25, 0, 1132, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.5, 1)
+}
+
+[sub_resource type="Animation" id="Animation_kf55w"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(1132, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pya08"]
+_data = {
+"RESET": SubResource("Animation_kf55w"),
+"indicator": SubResource("Animation_3n6j3")
+}
 
 [node name="ExampleBalloon" type="CanvasLayer"]
 layer = 100
@@ -159,6 +195,25 @@ response_template = NodePath("ResponseExample")
 [node name="ResponseExample" type="Button" parent="Balloon/Responses/ResponsesMenu"]
 layout_mode = 2
 text = "Response example"
+
+[node name="Indicator" type="TextureRect" parent="Balloon"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -468.0
+offset_top = 584.0
+offset_right = -240.0
+offset_bottom = 783.0
+grow_horizontal = 0
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_ys8cr")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Balloon/Indicator"]
+libraries = {
+"": SubResource("AnimationLibrary_pya08")
+}
+autoplay = "indicator"
 
 [node name="DialogueSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_82mms")

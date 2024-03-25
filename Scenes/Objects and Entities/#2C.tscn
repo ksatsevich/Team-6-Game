@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://dakks54knl6ap"]
+
+[ext_resource type="Script" path="res://Scripts/Stations/CustomerStation.gd" id="1_mxtag"]
+[ext_resource type="SpriteFrames" uid="uid://28urthua8p64" path="res://Art Assets/Player/#2C Sprite Frame.tres" id="2_2k8uf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1e2xh"]
+radius = 37.0
+height = 74.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4iyma"]
+size = Vector2(152.5, 144.75)
+
+[node name="Customer" type="RigidBody2D"]
+mass = 0.01
+gravity_scale = 0.0
+lock_rotation = true
+freeze = true
+script = ExtResource("1_mxtag")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -47)
+scale = Vector2(5, 5)
+sprite_frames = ExtResource("2_2k8uf")
+animation = &"d_i"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -27)
+shape = SubResource("CapsuleShape2D_1e2xh")
+
+[node name="SpeakingArea" type="Area2D" parent="."]
+position = Vector2(0, -17)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SpeakingArea"]
+position = Vector2(0, -27)
+shape = SubResource("RectangleShape2D_4iyma")
+
+[connection signal="body_entered" from="SpeakingArea" to="." method="_on_speaking_area_body_entered"]
+[connection signal="body_exited" from="SpeakingArea" to="." method="_on_speaking_area_body_exited"]
