@@ -6,8 +6,8 @@
 [ext_resource type="AudioStream" uid="uid://bat4ds0anjut4" path="res://Audio Assets/Sound Effects/footstep.mp3" id="4_032g1"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0454b"]
-radius = 41.8871
-height = 181.257
+radius = 31.6291
+height = 135.304
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_yspyh"]
 radius = 93.3435
